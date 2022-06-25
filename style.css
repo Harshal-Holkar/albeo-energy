@@ -159,7 +159,11 @@ section {
   .navbar-nav a:hover, .navbar-nav .active, .navbar-nav .active:focus, .navbar-nav li:hover > a {
     color: #fff;
   }
+  .navbar-toggler{
 
+    color:#05386B !important;
+    border-color: none !important;
+  }
   /* ------------------------------------*/
   /* --HOME----  */
   /* ------------------------------------- */

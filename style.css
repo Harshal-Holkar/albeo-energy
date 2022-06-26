@@ -261,6 +261,25 @@ section {
     background-size: cover;
     min-height: 400px;
   }
+   .getstarted, .getstarted:focus {
+    background: #8EE4AF;
+    color:#213b52;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 4px 25px 6px 25px;
+    margin-left: 12px;
+    /* margin-top: 10px; */
+    margin-bottom: -20px;
+    font-weight: 600; 
+    /* border-radius: 50px; */
+    border: 2px solid  #8EE4AF;
+    transition: 1s ease-in-out;
+  }
+  .getstarted:hover, .getstarted:focus:hover {
+    border: 2px solid #213b52;
+    color:#213b52;
+    /* transition: 1s ease; */
+  }
   @media (max-width: 667px) {
     .about .image img {
       max-width: 100%;
@@ -340,9 +359,25 @@ section {
   /* ------------------------------------------------------------ */
   /* Comparison */
 
+.table{
+  color: #213b52;
+}
   .table-striped>tbody>tr:nth-of-type(odd) {
-    --bs-table-accent-bg: none; 
-     color: var(--bs-table-striped-color);
+    /* --bs-table-accent-bg: var(--bs-table-striped-bg);  */
+
+  
+     /* tr:nth-child(even) {
+      background-color: lightpink;
+      }
+      tr:nth-child(odd){
+        background-color: lightskyblue;
+        }
+  
+      th {
+         background-color: lightseagreen;
+      } */
+      color: #213b52;
+    background-color:#e0fff0;
 }
 
 /* -------------------------------------------------------------------- */

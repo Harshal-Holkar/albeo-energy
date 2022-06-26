@@ -40,15 +40,17 @@
                     <li class=" dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Energy Apps</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                            <li><a class="dropdown-item" href="#">Blog Home</a></li>
-                            <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                            <li  class="items"><a class="dropdown-item" href="#">Blog Home</a></li>
+                            <li  class="items"><a class="dropdown-item" href="#">Blog Post</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                            <li><a class="dropdown-item" href="#">Portfolio Overview</a></li>
-                            <li><a class="dropdown-item" href="#">Portfolio Item</a></li>
+                            <li class="items"><a class="dropdown-item" href="./Resources/ANN for WTI Modeling.pdf">ANN for WTI Modeling</a></li>
+                            <li  class="items"><a class="dropdown-item" href="./Resources/Credit Risk Modeling.pdf">Credit Risk Modelling</a></li>
+                            <li  class="items"><a class="dropdown-item" href="./Resources/Market Direction Prediction.pdf">Market Direction Prediction</a></li>
+                            <li  class="items"><a class="dropdown-item" href="./Resources/Market Risk Model -Validation.pdf">Market Risk Model -Validation</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -70,7 +72,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/img/cloud_image2.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/hero2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 style="color:aliceblue">Offering Energy Trading-Systems as a Service
                     (ETSaaS)</h1>
@@ -78,7 +80,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/hero2.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/hero3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 style="color:aliceblue">Offering Energy Trading-Systems as a Service
                     (ETSaaS)</h1>
@@ -86,7 +88,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./assets/img/hero2.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/img/hero4.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h1 style="color:aliceblue">Offering Energy Trading-Systems as a Service
                     (ETSaaS)</h1>
@@ -244,10 +246,10 @@
       <!-- End Services Section -->
 <!-- Comparison between other trading companies and our company -->
 <section class="compare section-bg">
-    <div class="container">
-      <h1>Difference between exiting energy ETRM and ALBEDO ETRM solutions</h1>
-      <div class="table-responsive">
-        <table class="table table-striped fa-check text-successtable-border border-light">
+    <div class="container section-title">
+      <h2 data-aos="fade-in">Difference between exiting energy ETRM and ALBEDO ETRM solutions</h2>
+      <div class="table-responsive" data-aos="fade-up">
+        <table class="table table-striped fa-check text-successtable-border border-light" >
           <thead class="border-light">
             <tr>
               <th scope="col"></th>
@@ -257,29 +259,52 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Lorem Ipsum</th>
-              <td><i class="fas fa-check text-success"></i></td>
-              <td><i class="fas fa-times text-danger"></i></td>
+              <th scope="row">Energy Devices</th>
+              <td>Provide real timeprices</td>
+              <td>Forecast prices for tomorrow with error margin of less than 1%.</td>
             </tr>
             <tr>
-              <th scope="row">Lorem Ipsum</th>
-              <td><i class="fas fa-check text-success"></i></td>
-              <td><i class="fas fa-check text-success"></i></td>
+              <th scope="row">Energy Portfolio</th>
+              <td>Portfolio VaR</td>
+              <td>VaR+ Tail risk+ Probability distrbn. +
+                Portfolio Optimisation for target
+                risk/return.</td>
             </tr>
             <tr>
-              <th scope="row">Lorem Ipsum</th>
-              <td><i class="fas fa-check text-success"></i></td>
-              <td><i class="fas fa-times text-danger"></i></td>
+              <th scope="row">Derivatives Valuation</th>
+              <td>Options, Swaps</td>
+              <td>Options+ Swaps+ Swaptions+ Quantos+
+                basis swap +caps+floors +….18 types.</td>
             </tr>
             <tr>
-              <th scope="row">Lorem Ipsum</th>
-              <td><i class="fas fa-check text-success"></i></td>
-              <td><i class="fas fa-check text-success"></i></td>
+              <th scope="row">Risk Management</th>
+              <td>Commodity risks</td>
+              <td>Commodity + Currency Risk mgmt</td>
             </tr>
             <tr>
-              <th scope="row">Lorem Ipsum</th>
-              <td><i class="fas fa-check text-success"></i></td>
-              <td><i class="fas fa-times text-danger"></i></td>
+              <th scope="row">Mark-t-Management</th>
+              <td>Trading portfolio</td>
+              <td>Trading portfolio+ hedge simulations</td>
+            </tr>
+            <tr>
+              <th scope="row">Sensitivity, stress testing</th>
+              <td>Yes</td>
+              <td>Yes + portfolio rebalancing in real time
+
+                with ∆,Γ,Ѵ,ϴ  neutral portfolio.</td>
+            </tr>
+            <tr>
+              <th scope="row">Platform, space</th>
+              <td>Needs implementation,
+                minimum space&gt;4.0MB</td>
+              <td>Runs on Cloud, no implementation.</td>
+            </tr>
+            <tr>
+              <th scope="row">Price</th>
+              <td>Expensive</td>
+              <td>Fraction of their cost, subscription
+
+                basis.</td>
             </tr>
           </tbody>
         </table>

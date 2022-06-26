@@ -222,6 +222,12 @@ section {
   .carousel-caption{
     top:18.5rem !important;
   }
+  .carousel-item{
+    height: 90.02262443438914vh;
+    /* height: fit-content; */
+    min-height: 550px;
+
+  }
   /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/

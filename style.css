@@ -101,6 +101,7 @@ section {
     display: block;
     width: 40px;
     height: 3px;
+    /* color:#18d26e */
     background: #5CDB95;
     bottom: 0;
     left: calc(50% - 20px);

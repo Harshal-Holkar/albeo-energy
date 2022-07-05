@@ -1,60 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albedo-Energy-Consulting</title>
 
-      <!-- Google Fonts -->
-        <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albedo-Energy-Consulting</title>
 
-      <!-- Favicon-->
-      <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-      <!-- Bootstrap icons-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-      <!-- Core theme CSS (includes Bootstrap)-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <!-- aos css -->
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-     
-          <link rel="stylesheet" href="style.css">
-  </head>
-  <body >
-    <div id="header" class="d-flex flex-column h-100" >
-        <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top">
-          <div class="container px-5">
-              <div class="logo">
-                  <h1><a href="index.html">Albedo<span>Energy</span></a></h1>
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-                </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class=""><a class="nav-link" href="index.html">Home</a></li>
-                      <li class=""><a class="nav-link" href="#about">About</a></li>
-                      <li class=""><a class="nav-link" href="#services">Energy Solutions</a></li>
-                      <!-- <li class=""><a class="nav-link" href="pricing.html">Pricing</a></li> -->
-                      <li class=""><a class="nav-link" href="#team">Team</a></li>
-                      <li class=" dropdown">
-                          <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Energy Apps</a>
-                          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                              <li  class="items"><a class="dropdown-item" href="#">Blog Home</a></li>
-                              <li  class="items"><a class="dropdown-item" href="#">Blog Post</a></li>
-                          </ul>
-                      </li>
-                      <li class="dropdown">
-                          <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-                          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                              <li class="items"><a class="dropdown-item" href="./Resources/ANN for WTI Modeling.pdf">ANN for WTI Modeling</a></li>
-                              <li  class="items"><a class="dropdown-item" href="./Resources/Credit Risk Modeling.pdf">Credit Risk Modelling</a></li>
-                              <li  class="items"><a class="dropdown-item" href="./Resources/Market Direction Prediction.pdf">Market Direction Prediction</a></li>
-                              <li  class="items"><a class="dropdown-item" href="./Resources/Market Risk Model -Validation.pdf">Market Risk Model -Validation</a></li>
-                          </ul>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- aos css -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ------------------ -->
+  <!-- Navbar------- -->
+  <div id="header" class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
+      <div class="container px-5">
+        <div class="logo">
+          <!-- <h1><a href="index.html">Albedo<span>Energy</span></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class=""><a class="nav-link" href="index.html">Home</a></li>
+            <li class=""><a class="nav-link" href="#about">About</a></li>
+            <li class=""><a class="nav-link" href="#services">Energy Solutions</a></li>
+            <!-- <li class=""><a class="nav-link" href="pricing.html">Pricing</a></li> -->
+
+            <!-- <li class=" dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="./energyapps.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Energy Apps</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                            <li  class="items"><a class="dropdown-item" href="#">Blog Home</a></li>
+                            <li  class="items"><a class="dropdown-item" href="#">Blog Post</a></li>
+                        </ul>
+                    </li> -->
+            <li class=""><a class="nav-link" href="./energyapps.html">Energy Apps</a></li>
+            <li class=""><a class="nav-link" href="./contact.html">Contact Us</a></li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                <li class="items"><a class="dropdown-item" target="_blank"
+                    href="./Resources/ANN for WTI Modeling.pdf">ANN for WTI Modeling</a></li>
+                <li class="items"><a class="dropdown-item" target="_blank"
+                    href="./Resources/Credit Risk Modeling.pdf">Credit Risk Modelling</a></li>
+                <li class="items"><a class="dropdown-item" target="_blank"
+                    href="./Resources/Market Direction Prediction.pdf">Market Direction Prediction</a></li>
+                <li class="items"><a class="dropdown-item" target="_blank"
+                    href="./Resources/Market Risk Model -Validation.pdf">Market Risk Model -Validation</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->

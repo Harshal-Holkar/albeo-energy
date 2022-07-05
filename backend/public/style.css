@@ -101,6 +101,7 @@ section {
     display: block;
     width: 40px;
     height: 3px;
+    /* color:#18d26e */
     background: #5CDB95;
     bottom: 0;
     left: calc(50% - 20px);
@@ -118,27 +119,29 @@ section {
     padding: 10px 0;
     background: #5CDB95;
   }
-  #header .logo h1 {
+  /* #header .logo h1 {
     font-size: 25px;
     margin: 0;
-    padding: 0 10px 0 0;
-    line-height: 1;
+    /* padding: 0 20px 0 0; */
+    /* line-height: 1;
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-  }
-  #header .logo h1 a, #header .logo h1 a:hover {
+  }  */
+  /* #header .logo h1 a, #header .logo h1 a:hover {
     color: #EDF5E1;
     text-decoration: none;
   }
   #header .logo h1 a span, #header .logo h1 a:hover span {
     color: #05386B;
-  }
+  } */
   #header .logo img {
+    position: absolute;
+    top: 0px;
     padding: 0;
     margin: 0;
-    max-height: 40px;
+    max-height: 3.5rem;
   }
   @media(max-width:390px){
     #header .logo h1{
@@ -159,8 +162,9 @@ section {
   .navbar-nav a, .navbar-nav a:focus {
     display: flex;
     align-items: center;
+    font-weight: bold;
     justify-content: space-between !important;
-    padding: 10px 10px 10px 30px !important;
+    padding: 10px 10px 10px 20px !important;
     font-size: 14px !important;
     color: #05386B;
     white-space: nowrap;
@@ -215,12 +219,33 @@ section {
     color: #EDF5E1;
     font-family: "Poppins", sans-serif;
   }
+
   .imgHome{
     height: 600px;
     width: 100%;
   }
   .carousel-caption{
-    top:18.5rem !important;
+    top:16.5rem !important;
+  }
+  .carousel-item{
+    height: 90.02262443438914vh;
+    /* height: fit-content; */
+    min-height: 550px;
+
+  }
+  @media(max-width:620px){
+    #hero h1{
+      font-size: 32px;
+    }
+    .carousel-caption{
+      top:10.5rem !important;
+    }
+  }
+  @media(max-width:400px){
+    #hero h1{
+      font-size: 25px;
+    }
+  
   }
   /*--------------------------------------------------------------
 # About
@@ -261,11 +286,35 @@ section {
     background-size: cover;
     min-height: 400px;
   }
+   .getstarted, .getstarted:focus {
+    background: #8EE4AF;
+    color:#213b52;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 4px 25px 6px 25px;
+    margin-left: 12px;
+    /* margin-top: 10px; */
+    margin-bottom: -20px;
+    font-weight: 600; 
+    /* border-radius: 50px; */
+    border: 2px solid  #8EE4AF;
+    transition: all 1s ease-in-out;
+  }
+  .getstarted:hover, .getstarted:focus:hover {
+    border: 2px solid #213b52;
+    color:#213b52;
+    transition: scale(1.1);
+  }
   @media (max-width: 667px) {
     .about .image img {
       max-width: 100%;
     }
   }
+/* --------------------- */
+.graph-img{
+  height: 300px;
+  width: 90%;
+}
 
   /*--------------------------------------------------------------
 # Services
@@ -340,9 +389,25 @@ section {
   /* ------------------------------------------------------------ */
   /* Comparison */
 
+.table{
+  color: #213b52;
+}
   .table-striped>tbody>tr:nth-of-type(odd) {
-    --bs-table-accent-bg: none; 
-     color: var(--bs-table-striped-color);
+    /* --bs-table-accent-bg: var(--bs-table-striped-bg);  */
+
+  
+     /* tr:nth-child(even) {
+      background-color: lightpink;
+      }
+      tr:nth-child(odd){
+        background-color: lightskyblue;
+        }
+  
+      th {
+         background-color: lightseagreen;
+      } */
+      color: #213b52;
+    background-color:#e0fff0;
 }
 
 /* -------------------------------------------------------------------- */
@@ -373,7 +438,23 @@ section {
   .features .content p:last-child {
     margin-bottom: 0;
   }
-
+  .videosapp{
+    width: 36.6vw;
+    height: 400px;
+    min-width: 300px;
+  }
+  @media(max-width:991px){
+    .videosapp{
+      width: 35.6vw;
+      height: 380px;
+    }
+  }
+  @media(max-width:767px){
+    .videosapp{
+      width: 100%;
+    }
+  }
+  
   /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -422,7 +503,7 @@ section {
     color: #444444;
     text-align: center;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 20px 0 30px 0;
+    padding: 0px 0 30px 0;
     background: #fff;
   }
   .contact .info-box i {
@@ -634,6 +715,7 @@ section {
   }
   #footer .copyright {
     text-align: center;
+    font-size: 1rem;
     /* float: left; */
   }
   #footer .credits {
@@ -647,5 +729,14 @@ section {
       float: none;
       text-align: ceneter;
     }
+  }
+
+  .disclaimer a{
+    color: red ;
+    font-size: larger;
+  }
+  .disclaimer {
+    padding: 0 7% 10px;
+    text-align: left;
   }
     
